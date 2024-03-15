@@ -1,0 +1,24 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap') */
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slick-slide > div{
+margin: 3px;
+width: 350px;
+background-color: rgb(15 23 42);
+box-shadow: 2 2 2 yellow;
+border: 10px yellow;
+}
+
+.slick-slide > div.hover{
+    scale: 125%;
+    cursor: pointer;
+}
+  
+
